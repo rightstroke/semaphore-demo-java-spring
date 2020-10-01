@@ -19,7 +19,7 @@
 	<properties>
 		<myTestSourceDirectory>${project.basedir}/src/test/java</myTestSourceDirectory>
 		<java.version>1.8</java.version>
-		<sonar.login>admin/sonar.login>
+		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<!--<sonar.projectKey>t4_batch1_001</sonar.projectKey>
 		<sonar.projectName>T4_Batch1_001</sonar.projectName>
