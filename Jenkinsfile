@@ -15,7 +15,7 @@ pipeline {
 	stages {
 		stage('Clone sources') {
 			steps {
-				git url: 'https://github.com/srajkumar75/semaphore-demo-java-spring'
+				git url: 'https://github.com/rightstroke/semaphore-demo-java-spring/'
 			}
 		}
 		stage('Artifactory configuration'){
@@ -62,7 +62,7 @@ pipeline {
 
 node {
 	stage('SCM') {
-		git 'https://github.com/srajkumar75/semaphore-demo-java-spring'
+		git 'https://github.com/rightstroke/semaphore-demo-java-spring/'
 	}
 	stage('SonarQube analysis') {
 		withSonarQubeEnv('SonarQube6.3') {
