@@ -22,7 +22,7 @@
 		<!--<sonar.projectKey>t4_batch1_001</sonar.projectKey>
 		<sonar.projectName>T4_Batch1_001</sonar.projectName>
 		<sonar.projectVersion>1.0.1</sonar.projectVersion>-->
-		<sonar.host.url>http://10.61.10.16:7090/</sonar.host.url>
+		<sonar.host.url>http://localhost:9000/</sonar.host.url>
 	</properties>
 
 	<dependencies>
