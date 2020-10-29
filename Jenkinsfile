@@ -15,7 +15,7 @@ pipeline {
 	stages {
 		stage('Clone sources') {
 			steps {
-				git branch:main, url: 'https://github.com/rightstroke/semaphore-demo-java-spring/'
+				git branch:'main', url: 'https://github.com/rightstroke/semaphore-demo-java-spring/'
 			}
 		}
 		stage('Artifactory configuration'){
