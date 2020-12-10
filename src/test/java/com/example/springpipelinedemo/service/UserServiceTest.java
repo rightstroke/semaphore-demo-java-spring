@@ -40,7 +40,7 @@ public class UserServiceTest {
 
     @Test
     public void findByName() {
-        String name = "name";
+        String name = "name123";
 
         User user = mock(User.class);
         doReturn(Optional.of(user)).when(userRepository).findByEmail(name);
@@ -58,13 +58,13 @@ public class UserServiceTest {
 
         doReturn(Optional.empty()).when(userRepository).findByEmail(any());
 
-        userService.loadUserByUsername("name");
+        userService.loadUserByUsername("32name");
     }
 
     @Test
     public void createUser() {
-        String email = "email";
-        String password = "pass";
+        String email = "email1";
+        String password = "pass1";
 
         User user = mock(User.class);
         doReturn(email).when(user).getEmail();
