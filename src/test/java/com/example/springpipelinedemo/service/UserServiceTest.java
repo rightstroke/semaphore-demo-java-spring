@@ -85,5 +85,10 @@ public class UserServiceTest {
         assertThat(encoder.matches(password,captured.getPassword())).isTrue();
 
     }
+    
+    @Test
+    public void createUser2() {
+        assertEqual("123","321");
+    }
 
 }
