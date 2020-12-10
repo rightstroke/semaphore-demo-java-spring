@@ -19,6 +19,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
