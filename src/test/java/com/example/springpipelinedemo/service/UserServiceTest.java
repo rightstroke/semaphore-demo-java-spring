@@ -88,7 +88,7 @@ public class UserServiceTest {
     
     @Test
     public void createUser2() {
-        assertEqual("123","321");
+        assertEquals("123","321");
     }
 
 }
