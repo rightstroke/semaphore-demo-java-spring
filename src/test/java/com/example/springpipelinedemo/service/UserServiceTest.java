@@ -89,7 +89,7 @@ public class UserServiceTest {
     
     @Test
     public void createUser2() {
-        assertEquals("123","123");
+        assertEquals("564","123");
     }
 
 }
